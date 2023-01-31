@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-23T22:35:16 IST" name="IRCTC" finished-at="2023-01-23T22:35:33 IST" duration-ms="16824">
+  <suite started-at="2023-01-30T10:40:31 IST" name="IRCTC" finished-at="2023-01-30T10:40:41 IST" duration-ms="9889">
     <groups>
     </groups>
-    <test started-at="2023-01-23T22:35:16 IST" name="SearchFlight" finished-at="2023-01-23T22:35:33 IST" duration-ms="16824">
+    <test started-at="2023-01-30T10:40:31 IST" name="SearchFlight" finished-at="2023-01-30T10:40:41 IST" duration-ms="9889">
       <class name="com.test.testcases.SearchFlightTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.testcases.SearchFlightTest@493dfb8e]" started-at="2023-01-23T22:35:16 IST" name="setUp" finished-at="2023-01-23T22:35:30 IST" duration-ms="14526" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.test.testcases.SearchFlightTest@64bc21ac]" started-at="2023-01-30T10:40:31 IST" name="setUp" finished-at="2023-01-30T10:40:39 IST" duration-ms="8032" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="locations()[pri:0, instance:com.test.testcases.SearchFlightTest@493dfb8e]" started-at="2023-01-23T22:35:30 IST" name="locations" finished-at="2023-01-23T22:35:33 IST" duration-ms="2218" status="PASS">
+        <test-method signature="locations()[pri:0, instance:com.test.testcases.SearchFlightTest@64bc21ac]" started-at="2023-01-30T10:40:39 IST" name="locations" finished-at="2023-01-30T10:40:41 IST" duration-ms="1814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- locations -->

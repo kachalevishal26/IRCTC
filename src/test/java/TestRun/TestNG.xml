@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="IRCTC">
 	<listeners>
 		<listener class-name="Analyzer.MyTransformer"/>
@@ -7,9 +7,7 @@
 	</listeners>
 	
 	<test name="SearchTrain" enabled="false">
-		<parameters>
-			<parameter name="browser" value="chrome"/>
-		</parameters>
+		<parameter name="browser" value="chrome"/>
 		<classes>
 			<class name="com.test.testcases.SearchTrainTest">
 				<methods>
@@ -24,9 +22,7 @@
 	</test>
 	
 	<test name="SearchBus" enabled="false">
-		<parameters>
-			<parameter name="browser" value="chrome"/>
-		</parameters>
+		<parameter name="browser" value="chrome"/>
 		<classes>
 			<class name="com.test.testcases.SearchBusTest">
 				<methods>
@@ -39,15 +35,13 @@
 	</test>
 	
 	<test name="SearchFlight" enabled="true">
-		<parameters>
-			<parameter name="browser" value="chrome"/>
-		</parameters>
+		<parameter name="browser" value="chrome"/>
 		<classes>
 			<class name="com.test.testcases.SearchFlightTest">
 				<methods>
 					<include name="locations"/>
-<!--					<include name="selectDate"/>-->
-<!--					<include name="busCount"/>-->
+					<!--					<include name="selectDate"/>-->
+					<!--					<include name="busCount"/>-->
 				</methods>
 			</class>
 		</classes>

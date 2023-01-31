@@ -1,6 +1,7 @@
 package com.test.testcases;
 
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -16,7 +17,7 @@ public class SearchFlightTest extends TestBase {
 	
 	@Parameters("browser")
 	@BeforeTest
-	public void setUp(String browserName) {
+	public void setUp(@Optional String browserName) {
 		initialization(browserName);
 		searchFlight = new SearchFlight();
 	}
